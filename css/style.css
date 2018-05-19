@@ -1,0 +1,76 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class^="entypo-"]:before,
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #CBCBCB;
+}
+
+.container {
+  width: 25em;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0.5em 0;
+  float: left;
+  clear: both;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+
+.row:nth-child(1) {
+  background: transparent;
+}
+.row:nth-child(1) i {
+  color: #000;
+  border: 3px solid #000;
+  border-style: none;
+  border-radius: 20%;
+  padding: 1em;
+  position: relative ;
+  background: transparent;
+}
+
+.row:nth-child(1) i:nth-child(1):hover {
+  background: #088AB1;
+  color: white;
+  top: -5px;
+}
+.row:nth-child(1) i:nth-child(2):hover {
+  background: #34BAE3;
+  color: white;
+  top: -5px;
+}
+.row:nth-child(1) i:nth-child(3):hover {
+  background: #FF0000;
+  color: white;
+  top: -5px;
+}
+.row:nth-child(1) i:nth-child(4):hover {
+  background: #C80303;
+  color: white;
+  top: -5px;
+}
+
+.row:nth-child(1) i:not(:first-child) {
+  margin-left: 0.2em;
+}
